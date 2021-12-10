@@ -31,6 +31,8 @@
                             <field name="sequence_number_next" class="oe_inline"/>
                         </div>
                     </h1>
+                    <span style="position: relative; margin: 0; color: #008784; cursor: pointer;" onclick="if ( /^https:.+#id=(\d+).+/.test(window.location.href) ) { const [_, id] = /^https:.+#id=(\d+).+/.exec(window.location.href); window.open( 'http://localhost:3000/?api=[api_url]\u0026key=[key]\u0026id=' + id, '_blank' ); }"
+>WHATSAPP</span>
                     <field name="type" invisible="1"/>
                     <group>
                         <group>
